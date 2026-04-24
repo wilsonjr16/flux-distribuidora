@@ -67,9 +67,26 @@
 
 			<div class="banner-section">
 				<div id="carousel-banner" class="banner owl-carousel" style="background-image:url('img/banner-capa.JPG');">
-					  <div><img src="/img/banner-1.jpg" alt="imagem teste" class="img-fluid"></div>
-						<div><img src="/img/banner-2.jpg" alt="imagem teste" class="img-fluid"></div>
-						<div><img src="/img/banner-3.jpg" alt="imagem teste" class="img-fluid"></div>
+					  <picture>
+							<!-- Display this on desktop -->
+							<source media="(min-width: 992px)" srcset="/img/banner-4.jpg">
+							<!-- Fallback for browsers that don't support <picture> or for small screens -->
+							<img src="/img/banner-mobile-1.jpg" alt="A responsive example image">
+						</picture>
+
+						<picture>
+							<!-- Display this on desktop -->
+							<source media="(min-width: 992px)" srcset="/img/banner-5.jpg">
+							<!-- Fallback for browsers that don't support <picture> or for small screens -->
+							<img src="/img/banner-mobile-2.jpg" alt="A responsive example image">
+						</picture>
+
+						<picture>
+							<!-- Display this on desktop -->
+							<source media="(min-width: 992px)" srcset="/img/banner-6.jpg">
+							<!-- Fallback for browsers that don't support <picture> or for small screens -->
+							<img src="/img/banner-mobile-3.jpg" alt="A responsive example image">
+						</picture>
 				</div>
 			</div>
 		</main>
