@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 $(document).ready(function(){
-  $("#carousel-depoimentos").owlCarousel({
+  $("#carousel-banner").owlCarousel({
     loop:true,
     margin:10,
     nav:true,
