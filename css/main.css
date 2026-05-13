@@ -90,6 +90,24 @@ body {
 .hamburger.active .nv2{opacity: 0;}
 .hamburger.active .nv3 {transform: rotate(-45deg);bottom: 10px;}
 
+/* Carrossel hero */
+ .banner-section .owl-dots {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+ }
+
+ .banner-section .owl-dot {
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	border-radius: 100%;
+ }
+
 /* Banner Section */
 
 .banner-section {
@@ -141,26 +159,12 @@ body {
 	border-color: #03878f;
 }
 
+/* Negocio - Section*/
+
 .negocio-section {
 	position: relative;
 	background-color: #fff;
 	margin-bottom: 30px;
-}
-
-.negocio-box-title {
-	position: relative;
-}
-
-.negocio-box-title::before {
-	content: '';
-	width: 90px;
-	height: 90px;
-	position: absolute;
-	top: 10px;
-	left: 0;
-	background-image: url('/img/escudo-ceara-energia.svg');
-	background-size: cover;
-	background-position: center;
 }
 
 .negocio-section h2 {
@@ -172,15 +176,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: center;
-}
-
-.negocio-section h3 {
-	font-size: 36px;
-	font-weight: bold;
-	font-family: "Roboto", serif;
-	color: #113245;
-	letter-spacing: 3px;
-	margin-left: 70px;
+	margin-bottom: 50px;
 }
 
 .negocio-section p {
@@ -211,39 +207,6 @@ body {
 	margin-top: 0;
 }
 
-/* .negocio-lista li::before {
-	content: '';
-    width: 50px;
-    height: 50px;
-    border: 2px solid;
-    border-radius: 100%;
-    border-color: #113245;
-    position: absolute;
-    left: 50%;
-	transform: translateX(-50%);
-    top: -50px;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.negocio-lista li:nth-child(1)::before {
-	content: '1';
-}
-
-.negocio-lista li:nth-child(2)::before {
-	content: '2';
-}
-
-.negocio-lista li:nth-child(3)::before {
-	content: '3';
-}
-
-.negocio-lista li:nth-child(4)::before {
-	content: '4';
-} */
-
 .negocio-lista li img {
 	border-radius: 8px;
 	margin-bottom: 15px;
@@ -262,6 +225,38 @@ body {
 	object-fit: cover;
 	border-radius: 8px;
 }
+
+.negocio-section .card-product {
+	border: 1px solid #dedede;
+	border-radius: 15px;
+	box-shadow: 0 1px 4px 2px #0000001a, 0 1px 1px -3px #0000000f;
+	margin-bottom: 30px;
+}
+
+.card-product h3 {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Roboto", serif;
+	color: #113245;
+	letter-spacing: 1px;
+}
+
+.negocio-section .card-header {
+	padding: 0;
+}
+
+.negocio-section .card-header,
+.negocio-section .card-img {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.negocio-section .card-footer {
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+/* - - - - - - - - - - - --  -- - - -  -*/
 
 .video-section {
 	padding: 70px 0;
