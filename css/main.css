@@ -6,6 +6,10 @@ body {
 	background-color: #fff;
 }
 
+.lp-body {
+	position: relative;
+}
+
 .header {
 	background: #fff;
 	height: 80px;
@@ -576,38 +580,34 @@ body {
 
 .footer {
 	padding: 20px 0;
-	background-color: #fff;
+	background-color: #de4e36;
 }
 
-.footer .flex {
+.footer-link {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 8px;
 }
 
-.footer span {
-	margin-top: 15px;
-	display: flex;
-	justify-content: center;
-	color: #1f1f1f;
-	font-size: 18px;
-	font-family: "Roboto", serif;
+.footer-link:hover {
+	text-decoration: none;
+}
+
+.footer-link span {
+	color: #ffffff;
+	font-weight: bold;
 }
 
 .wpp-btn {
 	position: fixed;
-	bottom: 8px;
-	right: 5px;
+	bottom: 15px;
+	right: 12px;
 	width: 42px;
 	height: 42px;
 	z-index: 10;
+	display: flex;
 }
-
-.suporte-tecnico-lp {
-	padding-top: 80px;
-}
-
 
 .page-servicos,
 .servicos-single {
