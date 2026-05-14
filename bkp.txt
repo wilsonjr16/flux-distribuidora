@@ -1,0 +1,20 @@
+<picture>
+<!-- Display this on desktop -->
+<source media="(min-width: 992px)" srcset="/img/banner-4.jpg">
+<!-- Fallback for browsers that don't support <picture> or for small screens -->
+<img src="/img/banner-mobile-1.jpg" alt="A responsive example image">
+</picture>
+
+<picture>
+<!-- Display this on desktop -->
+<source media="(min-width: 992px)" srcset="/img/banner-5.jpg">
+<!-- Fallback for browsers that don't support <picture> or for small screens -->
+<img src="/img/banner-mobile-2.jpg" alt="A responsive example image">
+</picture>
+
+<picture>
+<!-- Display this on desktop -->
+<source media="(min-width: 992px)" srcset="/img/banner-6.jpg">
+<!-- Fallback for browsers that don't support <picture> or for small screens -->
+<img src="/img/banner-mobile-3.jpg" alt="A responsive example image">
+</picture>
